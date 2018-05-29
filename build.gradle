@@ -38,7 +38,7 @@ dependencies {
 gulp_build.dependsOn 'installGulp'
 gulp_build.dependsOn 'npmInstall'
 
-//bootRun.dependsOn gulp_build
-build.dependsOn gulp_build
+bootRun.dependsOn gulp_build
+//build.dependsOn gulp_build
 
 

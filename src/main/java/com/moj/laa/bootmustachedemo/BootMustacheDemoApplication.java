@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BootMustacheDemoApplication {
 
 	public static void main(String[] args) {
-		System.out.println("starting application @@@@@@");
 		SpringApplication.run(BootMustacheDemoApplication.class, args);
 	}
 }
