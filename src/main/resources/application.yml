@@ -1,0 +1,29 @@
+spring:
+  mustache:
+    enabled: true
+    prefix: classpath:/templates/
+    check-template-location: true
+    suffix: .html
+
+topOfPage:
+htmlLang: EN
+pageTitle: GOV.UK - The best place to find government services and information
+assetPath: /govuk_modules/govuk_template/assets/
+head:
+bodyStart:
+skipLinkMessage:
+bodyClasses: js-enabled
+headerClass: with-proposition
+globalHeaderText: Legal Aide Agency
+insideHeader:
+propositionHeader: propositionHeader
+cookieMessage:  <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+afterHeader:
+content: <div class="container">content</div>
+footerTop:
+footerSupportLinks: footerSupportLinks
+licenceMessage: <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+bodyEnd:
+homepageUrl: https://www.gov.uk/
+logoLinkTitle: Go to the GOV.UK homepage
+crownCopyrightMessage: © Crown copyright

@@ -1,0 +1,24 @@
+{{>/fragments/head-extra}}
+{{>/fragments/head}}
+<body class="{{ bodyClasses }}">
+<script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+
+</script>
+
+{{{ bodyStart }}}
+
+<div id="skiplink-container">
+    <div>
+        <a href="#content" class="skiplink">{{ skipLinkMessage }}</a>
+    </div>
+</div>
+
+<div id="global-cookie-message">
+
+    {{{ cookieMessage }}}
+
+</div>
+
+
+{{>/fragments/header}}

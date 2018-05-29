@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "globalSass": "src/main/resources/static/*.scss",
+    "sass": [
+      "src/main/resources/static/govuk_modules/govuk_frontend_toolkit/stylesheets",
+      "src/main/resources/static/govuk_modules/govuk_template/assets/stylesheets",
+      "src/main/resources/static/govuk_modules/govuk-elements-sass/"
+    ],
+    "nodeModules": "node_modules/",
+    "govukModules": "src/main/resources/static/govuk_modules/",
+    "lib": "lib/"
+  }
+}
