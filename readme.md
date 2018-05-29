@@ -17,7 +17,7 @@ you can view an application with header, menu links, footer, and a message with 
 
 ### Making of this prototype and fine points to be noted.
 
--- Gradle Notes
+**Gradle Notes**
     Please take a note of these in the build.gradle file
         compile('org.springframework.boot:spring-boot-starter-mustache')
         compile('org.springframework.boot:spring-boot-starter-web')
@@ -32,7 +32,7 @@ you can view an application with header, menu links, footer, and a message with 
 
         classpath("com.moowork.gradle:gradle-gulp-plugin:0.10")
 
--- application.yml notes
+**application.yml notes**
     spring:
       mustache:
         enabled: true
@@ -40,16 +40,16 @@ you can view an application with header, menu links, footer, and a message with 
         check-template-location: true
         suffix: .html
 
--- Mustache Notes
+**Mustache Notes**
     Several fragment files are created and stored under /resources/templates/fragments
     index.html shows how these fragments are used.
 
--- npm (Node Package Manager Notes)
+**npm (Node Package Manager Notes)**
     Install npm i govuk_template_mustache
     Install npm i govuk-elements-sass
     Install npm install govuk_frontend_toolkit
 
--- Gulp Notes
+**Gulp Notes**
     Gulp is used as the tool to manage the gov-uk scss files. Please see the gulp.js and all the gulp files
     under ./gulp folder
 
@@ -60,7 +60,7 @@ you can view an application with header, menu links, footer, and a message with 
     - Compiles all the scss files from govuk-elements-sass and govuk_frontend_toolkit and produces a global.css file
     under src/resources/static/css/global.css
 
--- glonal.scss
+**glonal.scss**
      This is an important file where we plugin the entire gov-uk style elements. Along with this when gulp build is run
      a global.css file gets produced at /resources/static/css/global.css which contains compiled css elements from
      govuk-elements-sass and govuk_frontend_toolkit.
@@ -69,11 +69,11 @@ you can view an application with header, menu links, footer, and a message with 
      govuk-template-saas and govuk_frontend_toolkit.
 
 
--- govuk-template.css
+**govuk-template.css**
     This file can be found under src/resources/static/govuk_template/assets/stylesheets. This is needed for the header
     and footer construction in the html.
 
--- head.html
+**head.html**
     Please take a note of how two crucial css files are included in here
 
     <link rel="stylesheet" media="screen" href="/css/global.css"/>
