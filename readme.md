@@ -49,6 +49,8 @@ you can view an application with header, menu links, footer, and a message with 
 
 **npm (Node Package Manager Notes)**
 
+    Install nodejs (there by install npm automatically)
+    run npm init at the directory which needs to be the root of the UI project. This will produce the package.json
     Install npm i govuk_template_mustache
     Install npm i govuk-elements-sass
     Install npm install govuk_frontend_toolkit
